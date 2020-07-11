@@ -26,7 +26,7 @@ Este parche es para solucionar un problema en Deepin cuando se usa el driver pri
 
 5. Limpiar el caché wallpapers con blur
 
-sudo rm /var/cache/image-blur/*.jpg
+`sudo rm /var/cache/image-blur/*.jpg`
 
 
 # English
@@ -49,4 +49,4 @@ This patch is to fix a problem in Deepin when using the proprietary Nvidia drive
 
 5. Clear cache wallpapers with blur
 
-sudo rm /var/cache/image-blur/*.jpg
+`sudo rm /var/cache/image-blur/*.jpg`
