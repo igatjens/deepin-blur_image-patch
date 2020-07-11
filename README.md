@@ -20,7 +20,7 @@ Este parche es para solucionar un problema en Deepin cuando se usa el driver pri
 
 `sudo mv /usr/bin/blur_image /usr/bin/blur_image-backup`
 
-4. Copiar el parche a `/usr/bin'
+4. Copiar el parche a `/usr/bin`
 
 `sudo cp blur_image /usr/bin/`
 
@@ -43,7 +43,7 @@ This patch is to fix a problem in Deepin when using the proprietary Nvidia drive
 
 `sudo mv / usr / bin / blur_image / usr / bin / blur_image-backup`
 
-4. Copy the patch to `/ usr / bin '
+4. Copy the patch to `/ usr / bin`
 
 `sudo cp blur_image / usr / bin /`
 
