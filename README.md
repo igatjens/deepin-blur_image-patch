@@ -1,5 +1,8 @@
 # Deepin-wallpaper-blur-for-Nvidia
 
+![Captura que muestra el error](https://raw.githubusercontent.com/igatjens/Deepin-wallpaper-blur-for-Nvidia/master/Screen%20Capture_20200711112142.png)
+![Captura que muestra el resultado después de aplicar el parche](https://raw.githubusercontent.com/igatjens/Deepin-wallpaper-blur-for-Nvidia/master/Screen%20Capture_20200711112749.png)
+
 # Español
 
 Este parche es para solucionar un problema en Deepin cuando se usa el driver privativo de Nvidia. El problema es que cuando se establecen fondos de escritorio que no son los fondos por defecto de Deepin, el menú de aplicaciones a pantalla completa se muestra con fondo negro en vez de mostrar un efecto blur (borroso) del fondo de escritorio.
