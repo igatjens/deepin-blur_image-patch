@@ -10,6 +10,8 @@ Captura que muestra el resultado después de aplicar el parche - Screenshot show
 
 Este parche es para solucionar un problema en Deepin cuando se usa el driver privativo de Nvidia. El problema es que cuando se establecen fondos de escritorio que no son los fondos por defecto de Deepin, el menú de aplicaciones a pantalla completa se muestra con fondo negro en vez de mostrar un efecto blur (borroso) del fondo de escritorio.
 
+## Aplicar parche
+
 1. Descargue el parche de blur_image
 
 2. Agregar permisos de ejecución al parche
@@ -28,10 +30,20 @@ Este parche es para solucionar un problema en Deepin cuando se usa el driver pri
 
 `sudo rm /var/cache/image-blur/*.jpg`
 
+## Remover parche
+
+Ejecute los siguientes comandos.
+
+`sudo rm /usr/bin/blur_image`
+
+`sudo mv /usr/bin/blur_image-backup /usr/bin/blur_image`
+
 
 # English
 
 This patch is to fix a problem in Deepin when using the proprietary Nvidia driver. The problem is that when setting wallpapers other than Deepin's default backgrounds, the full-screen application menu is shown with a black background instead of showing a blur effect of the desktop background.
+
+## Apply patch
 
 1. Download the blur_image patch
 
@@ -50,3 +62,11 @@ This patch is to fix a problem in Deepin when using the proprietary Nvidia drive
 5. Clear cache of wallpapers with blur
 
 `sudo rm /var/cache/image-blur/*.jpg`
+
+## Remove patch
+
+Run the following commands.
+
+`sudo rm /usr/bin/blur_image`
+
+`sudo mv /usr/bin/blur_image-backup /usr/bin/blur_image`
