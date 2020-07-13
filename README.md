@@ -1,4 +1,4 @@
-# Deepin-wallpaper-blur-for-Nvidia
+# Deepin: Problema con el efecto blur del fondo de pantalla con driver Nvidia
 
 ![Captura que muestra el error](https://raw.githubusercontent.com/igatjens/Deepin-wallpaper-blur-for-Nvidia/master/Screen%20Capture_20200711112142.png)
 Captura que muestra el error - Screenshot showing error
@@ -53,11 +53,11 @@ This patch is to fix a problem in Deepin when using the proprietary Nvidia drive
 
 3. Backup original `blur_image`
 
-`sudo mv / usr / bin / blur_image / usr / bin / blur_image-backup`
+`sudo mv /usr/bin/blur_image /usr/bin/blur_image-backup`
 
-4. Copy the patch to `/ usr / bin`
+4. Copy the patch to `/usr/bin`
 
-`sudo cp blur_image / usr / bin /`
+`sudo cp blur_image /usr/bin/`
 
 5. Clear cache of wallpapers with blur
 
