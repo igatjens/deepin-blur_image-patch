@@ -14,6 +14,8 @@ Este parche es para solucionar un problema en Deepin cuando se usa el driver pri
 
 1. Descargue el parche de blur_image
 
+`wget https://raw.githubusercontent.com/igatjens/deepin-blur_image-patch/master/blur_image`
+
 2. Agregar permisos de ejecución al parche
 
 `chmod +x blur_image`
@@ -46,6 +48,8 @@ This patch is to fix a problem in Deepin when using the proprietary Nvidia drive
 ## Apply patch
 
 1. Download the blur_image patch
+
+`wget https://raw.githubusercontent.com/igatjens/deepin-blur_image-patch/master/blur_image`
 
 2. Add execute permissions to the patch
 
